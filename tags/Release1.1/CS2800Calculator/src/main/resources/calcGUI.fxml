@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox prefHeight="184.0" prefWidth="419.0"
+	xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.rhulcw.calculator.Driver">
+
+	<children>
+		<AnchorPane maxHeight="-1.0" maxWidth="-1.0"
+			prefHeight="239.0" prefWidth="287.0">
+			<children>
+				<Button layoutX="110.0" layoutY="64.0"
+					mnemonicParsing="false" onAction="#userValue" text="Calculate" />
+				<TextField fx:id="input" layoutY="14.0" prefHeight="32.0"
+					prefWidth="287.0"
+					promptText="Enter infix or post depending on option" />
+				<CheckBox fx:id="infix" layoutX="13.0" layoutY="67.0"
+					mnemonicParsing="false" selected="true" text="infix" />
+				<CheckBox fx:id="postfix" layoutX="210.0" layoutY="67.0"
+					mnemonicParsing="false" text="postfix" />
+				<TextField fx:id="output" layoutX="13.0" layoutY="105.0" />
+			</children>
+		</AnchorPane>
+		<TextArea fx:id="list" prefHeight="200.0" prefWidth="200.0" />
+	</children>
+</HBox>
