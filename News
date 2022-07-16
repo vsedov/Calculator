@@ -1,0 +1,42 @@
+./tags/Release0.1/
+      -- This is currently not complete - and gui is not complete
+      -- Cli is working with postFix and inFix - for positive Numbers;
+
+-./tags/Release0.1.a/
+      -- Bug Fixes
+      -- fixed bug where bracket validation was incorrect
+
+-./tags/Release1.0/
+      -- Super cool new gui, unfortunately it doesnt properly work yet
+
+-./tags/Release1.1/
+      -- Gui working : with History : And postFix and InFix option
+      -- Bug Fixes   : Increase speed and efficency of code
+      -- better user interface
+
+-./tags/Release1.1.a/
+      -- Bug Fixes and improved speeds
+
+-./tags/Release1.2/
+      -- Bug Fixes
+      -- Infix Floating Values now get evaluated
+
+-./tags/Release1.2.a/
+      -- Updated Readme for extra infomation on how to run
+      -- Jar files
+      -- Bug Fixes
+      -- Faster Code
+
+-./tags/Release1.2.a.1/
+      -- Bug Fixes
+      -- Updated Code base, improved speed
+
+
+-./tags/Release2.0/
+      -- OMG New secret Feature added: Use the calculator more to find out what it is.
+      -- improved GUI
+      -- Bug Fixes
+
+
+-./tags/Release2.0./
+      -- Optimization
